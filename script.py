@@ -15,6 +15,6 @@ print(greet('Gyantech Website Status Code'))
 r = requests.get('http://gyantech.in')
 print(r.status_code)
 print(r.ok)
-
+s = ("Sarthak")
 if r.status_code == 200:
     print('Sarthak Saini')
